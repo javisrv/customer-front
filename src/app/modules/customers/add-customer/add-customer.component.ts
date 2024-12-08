@@ -50,5 +50,7 @@ export class AddCustomerComponent  {
     window.location.reload();
     //this.router.navigate(['/customers']);
 } 
-
+CloseDialag(){
+  this.dialogRef.close();
+}
 }
